@@ -23,6 +23,7 @@ def moveZeroes(nums):
     Next non-zero we 
 
     """ 
+    i = 0
     for index, num in enumerate(nums): 
         if num != 0:
             nums[i], nums[index] = nums[index], nums[i]
