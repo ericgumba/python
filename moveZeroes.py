@@ -20,7 +20,9 @@ def moveZeroes(nums):
     the first non zero we encounter we move that to 
     first position in array. Decrease n by 1
 
-    Next non-zero we 
+    Increase i by 1. 
+
+    We stop when we reach the last element in nums.
 
     """ 
     i = 0
